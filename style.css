@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+#main-title {
+    background-color: #1b73e8;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.container {
+    padding: 30px;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+}

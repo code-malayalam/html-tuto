@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-section">
+
+        <picture>
+
+            <source
+                srcset="
+                    /images/square_sport_320.jpg 320w,
+                    /images/square_sport_640.jpg 640w,
+                    /images/square_sport_1024.jpg 1024w,
+                    /images/square_sport_2048.jpg 2048w,
+                    "
+                media="(max-width: 400px)"
+            >
+
+            <img
+                src=" /images/sport_320.jpg"
+                alt="sport" 
+                width="640"
+                srcset="
+                        /images/sport_320.jpg 320w,
+                        /images/sport_640.jpg 640w,
+                        /images/sport_1024.jpg 1024w,
+                        /images/sport_2048.jpg 2048w,
+                        "
+                sizes="(max-width: 400px) 320px, 640px"
+            />
+
+        </picture>
+
+    </div>
+</body>
+</html>

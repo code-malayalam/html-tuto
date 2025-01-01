@@ -1,0 +1,17 @@
+table {
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+tr:nth-of-type(even) {
+    background: #d7e5ed;
+}

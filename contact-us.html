@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container form-container">
+
+        <form method="post" action="submit.html" >
+
+            <fieldset>
+                <legend>Course Information</legend>
+                <div class="form-item">
+                    <label>First Name: </label>
+                    <input name="first-name" type="text" required pattern="[A-Za-z]+"> 
+                </div>
+                
+        
+
+                <div class="form-item">
+                    <label>Courses: </label>
+                    <input name="javascript" type="checkbox" value="javascript"> 
+                    <label>Git: </label>
+                    <input name="git" type="checkbox" value="git"> 
+                </div>
+            </fieldset>
+            
+
+            <div class="form-item">
+                <label>Password: </label>
+                <input name="password" type="password" required > 
+            </div>
+
+            <div class="form-item">
+                <label>Confirm Password: </label>
+                <input name="confirm-password" type="password" required> 
+            </div>
+
+            <div class="form-item">
+                <label>Male: </label>
+                <input name="gender" type="radio" value="male"> 
+                <label>Female: </label>
+                <input name="gender" type="radio" value="female"> 
+            </div>
+
+            <div class="form-item">
+                <label>Courses: </label>
+                <select name="courses">
+                    <option value="javascript">JavaScript....</option>
+                    <option value="git">Git</option>
+                    <option value="nextjs">NextJS</option>
+                </select>
+            </div>
+
+            <div class="form-item">
+                <label>Address: </label>
+               
+                <textarea></textarea>
+            </div>
+
+            <div class="form-item">
+                <input type="submit">
+            </div>
+
+           
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
